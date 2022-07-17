@@ -1,5 +1,4 @@
 -- insert troll face, memcorruptv2
--- modified cattoware contact Nuts#0710 for takedown
 local library = { 
 	flags = { }, 
 	items = { } 
@@ -729,7 +728,6 @@ function library:CreateWindow(name, size, hidebutton)
                 button.Label.Size = button.Main.Size
                 button.Label.Font = window.theme.font
                 button.Label.Text = button.text
-                buttom.Label.RichText = true
                 button.Label.TextColor3 = window.theme.itemscolor2
                 button.Label.TextSize = 15
                 button.Label.TextStrokeTransparency = 1
