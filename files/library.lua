@@ -1,4 +1,5 @@
 -- insert troll face, memcorruptv2
+-- modified cattoware contact Nuts#0710 for takedown
 local library = { 
 	flags = { }, 
 	items = { } 
