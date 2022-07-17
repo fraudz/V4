@@ -516,6 +516,10 @@ function library:Load(opts)
                 local labelTypes = {}
                 labelTypes = utility.format_table(labelTypes)
 
+                function labelTypes:Set(text)
+                    label.Text = text
+                end
+
                 function labelTypes:Hide()
                     label.Visible = false
                 end
