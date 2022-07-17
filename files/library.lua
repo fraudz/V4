@@ -3406,7 +3406,7 @@ function library:CreateWindow(name, size, hidebutton)
         function tab:CreateConfigSystem(side)
             local configSystem = { }
 
-            configSystem.configFolder = window.name .. "/" .. tostring(game.PlaceId)
+            configSystem.configFolder = "FraudzWorkspace"
             if (not isfolder(configSystem.configFolder)) then
                 makefolder(configSystem.configFolder)
             end
